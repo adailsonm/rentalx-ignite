@@ -24,5 +24,6 @@ services:
             - database_rentalx
         volumes: 
             - .:/usr/app
+            - /usr/app/node_modules
 volumes: 
     pgdata:
