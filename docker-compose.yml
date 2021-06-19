@@ -25,4 +25,4 @@ services:
         volumes: 
             - .:/usr/app
 volumes: 
-    pgdata: 
+    pgdata:
